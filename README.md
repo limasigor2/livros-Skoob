@@ -1,28 +1,30 @@
 # Livros Skoob
 
-Inspirado no grande Goodreads-books, surge a versão tupiniquim!! Com mais de 11.000 livros minerados do Skoob e diversas features de cada livro. Espero ir melhorando o dataset com o passar do tempo, sugestões são bem vindas!
+## Trabalho 1 - Data Science
+## Francisco Igor da Silva Lima - 507536
 
-[Dataset Kaggle](https://www.kaggle.com/victorstein/livros-skoob)
+Para executar o notebook basta instalar o [Anaconda](https://www.anaconda.com/), e executar o comando
 
-## Dados:
+```
+$ jupyter notebook
+```
 
-- Título
-- Autor(a)
-- ISBN_13
-- ISBN_10
-- Ano
-- Páginas
-- Idioma
-- Editora
-- Avaliações
-- Rating
-- Resenha
-- Abandonos
-- Relendo
-- Querem ler
-- Lendo
-- Leram
-- Descrição
-- Quantidade de resenhas
-- Porcentagem Leitores Masculinos
-- Porcentagem Leitoras Femininas
+E escolher o notebook Analise.
+
+Esse repositório está da seguinte forma, onde a pasta scraping está o código para realizar o scraping para a obtenção dos dados, entretanto não é necessário realizar isso pois os dados estão disponíveis no arquivo `dados.csv` ou no [link](https://www.kaggle.com/victorstein/livros-skoob):
+
+```
+.
+├── Analise.ipynb
+├── dados.csv
+├── imgs
+│   ├── clarice-contos.jpg
+│   ├── clarice-cronicas.jpg
+│   └── giphy.gif
+├── README.md
+└── scraping
+    ├── editoras_link.csv
+    ├── livros_link.csv
+    └── scraping.ipynb
+
+```
