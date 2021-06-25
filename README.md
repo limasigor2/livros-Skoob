@@ -11,7 +11,7 @@ $ jupyter notebook
 
 E escolher o notebook Analise.
 
-Esse repositório está da seguinte forma, onde a pasta scraping está o código para realizar o scraping para a obtenção dos dados, entretanto não é necessário realizar isso pois os dados estão disponíveis no arquivo `dados.csv` ou no [link](https://www.kaggle.com/victorstein/livros-skoob):
+Esse repositório está da seguinte forma: a pasta imgs contém algumas imagens salvas nesse projeto, a scraping está o código para realizar o scraping para a obtenção dos dados, entretanto não é necessário realizar isso pois os dados estão disponíveis no arquivo `dados.csv` ou no [link](https://www.kaggle.com/victorstein/livros-skoob):
 
 ```
 .
